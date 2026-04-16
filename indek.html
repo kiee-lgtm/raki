@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Saya</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+    }
+
+    header {
+      background: #111;
+      color: #fff;
+      padding: 50px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav a {
+      color: #fff;
+      margin-left: 20px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      color: #00adb5;
+    }
+
+    .hero {
+      height: 90vh;
+      background: linear-gradient(to right, #00adb5, #393e46);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+      padding: 50px;
+    }
+
+    .hero h1 {
+      font-size: 3em;
+    }
+
+    .section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: #f4f4f4;
+      padding: 20px;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+    }
+
+    footer {
+      background: #111;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    button {
+      padding: 10px 20px;
+      border: none;
+      background: #00adb5;
+      color: white;
+      cursor: pointer;
+      margin-top: 15px;
+      border-radius: 5px;
+    }
+
+    button:hover {
+      background: #028a90;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+ 
+  <nav>
+    <button onclick="goHome()">Home</button>
+
+<script>
+function goHome() {
+    window.location.href = "index.html"; // ganti dengan halaman utama kamu
+}
+</script>
+
+    <button onclick="keTentang()">Tentang</button>
+
+<script>
+function keTentang() {
+    window.location.href = "tentang.html";
+}
+</script>
+    <button onclick="keLayanan()">Layanan</button>
+
+<script>
+function keLayanan() {
+    window.location.href = "layanan.html";
+}
+</script>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div>
+    <h1>SELAMAT DATANG DI STORE SATRIA</h1>
+    <p1>DI SINI MENYEDIAKAN LAYANAN APAPUN</p>
+  
+  </div>
+</section>
+
+<section class="section" id="about">
+  
+
+</section>
+
+<section class="section" id="services">
+  <h2>LAYANAN</h2>
+  <h2>MENYEDIAKAN JUAL BELI AKUN FF,ML,PUGB,ROBLOK</h2>  
+  <div class="cards">
+    <div class="card">
+      <h2>FREFIRE</h2>
+      <h2>bisa jual akun frefire tergantung spek  </h2>
+      <a href="https://www.google.com">
+    <button>LANJUTKAN</button>
+      
+    </button>
+</a>       
+    </div>
+    <div class="card">
+      <h2>ML</h2>
+      <h2>bisa jual akun ml tergantung spek akun nya</h2>
+      <a href="https://www.google.com">
+    <button>LANJUTKAN</button>
+      
+    </button>
+</a>       
+    </div>
+    <div class="card">
+      <h2>PUBG</h2>
+      <h2>tersedia top up,akun</h2>
+      <a href="https://www.google.com">
+    <button>LANJUTKAN</button>
+      
+    </button>
+</a>       
+    </div>
+  <div class="card">
+     <h2>ROBLOK</h2>
+     <div class="catds">
+        <h2>menyediakan top up robuk dan akun</h2> 
+<a href="https://www.google.com">
+    <button>LANJUTKAN</button>
+      
+    </button>
+</a>       
+     </div>
+  </section>
+       
+       
+      
+<section class="section" id="contact">
+  <h2></h2>
+</section>
+
+<footer>
+ 
+</footer>
